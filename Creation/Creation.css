@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    
+}
+
+html, body {
+    height: 100%;
+}
+
+    .nav-item{
+        width: 120px;
+        padding: 0px;
+        text-decoration: none;
+        color: white;
+        z-index: 101;
+        display: inline-block;
+        font-weight: 300;
+        
+        
+
+    }
+
+    .image-no-height {
+        height: 0;
+    }
+    .nav {
+        position: absolute;
+        font-family: 'Josefin Sans', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        top: 10vh;
+    }
+
+    .nav-item:hover{
+        font-weight: bold;
+        color: darkgrey;
+        -webkit-text-stroke: 0.5px black;
+        transition-duration: 200ms;
+        
+    }
+
+    .creation{
+        text-decoration: underline;
+    }
+
+    img {
+    
+        display:block;
+        width: 100%;
+       
+        
+    }
+
+    .container {
+        margin: 0%;
+        align-items: center;
+        flex-direction: row;
+        display: inline-block;
+    }
+    
+    .flex-container {
+      position: fixed;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      
+    }
+    
+    .flex-item {
+        overflow: hidden; 
+        flex-basis: 100%;
+    }
+ 
+    /* .vinyl {
+        top: 0;
+        position: fixed;
+        
+    } */
+
+    /* .stop {
+        position: fixed;
+    }
+    */
+/* 
+    .speaker{
+        position: fixed;
+    }
+
+    .piano{
+        position: fixed;
+    } */
+
+
+/*  
+.vinyl-container:hover {
+    position: relative;
+    opacity: 0.6;
+}
+
+.svg-vinyl {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    left: 250px;
+    bottom: 200px;
+    width: 200px;
+    height: 200px;
+    display: none;
+    opacity: none;
+}
+
+.vinyl-container:hover > .svg-vinyl {
+    display: block;
+} */
+
